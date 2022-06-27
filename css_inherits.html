@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Inherits</title>
+
+    <style>
+        body {
+            color: cadetblue;
+        }
+
+        ul {
+            color: coral;
+        }
+
+        li{
+            color: yellow;
+        }
+
+        a {
+            color: inherit;
+            /* inherit: kullanılan etiketin üst etiketten miras alması gibidir. */
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sit explicabo voluptas fugit neque. Iusto
+        aliquam explicabo illo nostrum sunt.</p>
+
+    <h1>Lorem ipsum dolor sit amet.</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sit explicabo voluptas fugit neque. Iusto
+        aliquam explicabo illo nostrum sunt.</p>
+
+    <a href="#">Link 1</a>
+    <a style="color: inherit;" href="#">Link 2</a>
+
+    <ul>
+        <li style="color: inherit;">Madde 1</li>
+        <li>Madde 2</li>
+        <li>Madde 3</li>
+        <li>Madde 4</li>
+        <li>Madde 5</li>
+    </ul>
+
+</body>
+
+</html>
