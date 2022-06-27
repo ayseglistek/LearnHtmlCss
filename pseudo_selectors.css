@@ -1,0 +1,53 @@
+/* Pseudo Element */
+
+p::first-line {
+    /* paragrafın ilk satırına işlem yapmayı sağlar */
+    font-weight: bold;
+    color: darkred;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    /* harflerin arasına mesafe ayarlar*/
+}
+
+p::first-letter {
+    /* paragraf başlarının ilk harfine işlem yapmayı sağlar.*/
+    font-size: 50px;
+}
+
+
+
+/* Pseudo Class */
+
+ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul li:first-child {
+    /* sınıfın ilk öğesinin üzerinde işlem yapmayı sağlar.*/
+    background-color: darkgoldenrod;
+}
+
+ul li:last-child {
+    /* sınıfın son öğesinin üzerinde işlem yapmayı sağlar.*/
+    background-color: darkgreen;
+}
+
+a:visited {
+    /* ziyaret edilen sitenin üzerinde işlem yapar.*/
+    color: fuchsia;
+}
+
+a:hover {
+    /* ziyaret edilecek olan sitenin üstüne gelindiğinde işlem yapar.*/
+    color: white;
+    background: lightseagreen;
+}
+
+a {
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    margin-bottom: 10px;
+}
