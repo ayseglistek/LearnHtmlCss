@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Positions</title>
+
+    <style>
+        .kutu {
+            width: 150px;
+            height: 150px;
+        }
+
+        #kutu1 {
+            background: lightblue;
+            width: 100%;
+            position: sticky;  /* sticky : sayfada öğenin sabit kalmasını sağlar.*/
+            top: 50px;
+
+
+            /*  position: fixed;   /* fixed : sayfayı aşağı yukarı yapsak bile öğemiz yer değiştirmiyor.*/
+            /*  bottom: 0;
+                right: 0;
+                */
+        }
+
+        #kutu2 {
+            background: lightcoral;
+            /*  position: absolute; /* absolute : sayfasının en üst sol köşesini baz alarak ayarlama yapar. */
+            /*   top: 50px;
+                left: 50px;
+              */
+        }
+
+        #kutu3 {
+            background: lightgreen;
+            /*  position: relative;  /* relative : kutunun başlangıç noktasını baz alarak ayarlamalar yapılır.*/
+            /*      top: 50px;
+                  left: 50px;
+              */
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, esse provident! Recusandae aliquid quibusdam amet
+        architecto voluptatem quod minus doloremque, dolorem animi. Accusantium voluptas repellat explicabo. Perferendis
+        doloremque officiis ducimus.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus deleniti cupiditate impedit sunt delectus
+        aliquid, recusandae laborum nisi iusto asperiores necessitatibus facere libero! Saepe mollitia ipsa minima vel
+        porro possimus?</p>
+
+    <div class="kutu" id="kutu1">Kutu 1</div>
+    <div class="kutu" id="kutu2">Kutu 2</div>
+    <div class="kutu" id="kutu3">Kutu 3</div>
+    <div style="height: 3000px;"></div>
+
+</body>
+
+</html>
