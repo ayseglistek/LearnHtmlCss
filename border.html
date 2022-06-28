@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Borders</title>
+
+    <style>
+        .kutu {
+            width: 150px;
+            height: 150px;
+            background:lightgray;
+            margin: 50px;
+            padding: 50px;
+        }
+
+        #kutu1{
+            border: 2px solid blue;
+            border-radius: 50%; /* border-radius : kutumuzun köşelerini yumuşatmayı sağlar. mesela kutu köşesini yumuşatarak daire elde edilebilinir. */
+            
+        }   
+        
+        #kutu2{
+            border-top: 3px solid lightseagreen;
+            border-right-style:dashed;  /* border-right-style : kutunun kenarının farklı bir model olmasını sağlar. */
+        }
+
+        #kutu3{
+            border-width: 10px;
+            border-style: double;   /* kutumuzun kenarlarına double yani iki çizgi yapmayı sağlar. */
+            border-color:crimson;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="kutu" id="kutu1">Kutu 1</div>
+    <div class="kutu" id="kutu2">Kutu 2</div>
+    <div class="kutu" id="kutu3">Kutu 3</div>
+</body>
+
+</html>
