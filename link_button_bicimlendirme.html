@@ -3,9 +3,12 @@
 
 <head>
     <title>Link ve Button Biçimlendirme</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <style>
-        a {
+        a {  /* linklerin düzenlemesi yapıldı. */
             color: cadetblue;
             font-size: 20px;
             margin: 10px;
@@ -13,14 +16,14 @@
 
         }
 
-        a:hover {
+        a:hover { /* linklerin üzerine gelindiğinde nelerin değişip değişmeyeceğini buradan yapıldı. */
             color: brown;
             background: beige;
             /*      text-decoration: none;   */
             font-size: 25px;
         }
 
-        .button {
+        .button {  /* button ayarlaması buradan yapıldı. */
             padding: 10px 20px;
             background-color: darkorange;
             border: none;
@@ -28,7 +31,7 @@
             border-radius: 50px;
         }
 
-        .button:hover {
+        .button:hover { /* button un üzerine gelindiğinde nelerin değişip değişmediğini buradan yapıldı. */
             background-color: bisque;
             color: darkorange;
         }
@@ -45,6 +48,10 @@
             background-color: aquamarine;
             color: lightseagreen;
         }
+
+        i{
+            color: black;  /* iconların rengi değiştirildi.. */
+        }
     </style>
 </head>
 
@@ -59,17 +66,25 @@
 
     <br><br><br>
 
-    <button class="button">Anasayfa</button>
-    <button class="button">Hakkımızda</button>
-    <button class="button">Kategoriler</button>
-    <button class="button">İletişim</button>
+    <button class="button">
+        <i class="fa-solid fa-house-chimney"></i>
+        Anasayfa</button>
+    <button class="button">
+        <i class="fa-solid fa-address-card"></i>
+        Hakkımızda</button>
+    <button class="button">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Kategoriler</button>
+    <button class="button">
+        <i class="fa-solid fa-phone"></i>
+        İletişim</button>
 
     <br><br><br>
 
-    <button class="button2">Anasayfa</button>
-    <button class="button2">Hakkımızda</button>
-    <button class="button2">Kategoriler</button>
-    <button class="button2">İletişim</button>
+    <button class="button2">Anasayfa<i class="fa-solid fa-house-chimney"></i></button>
+    <button class="button2">Hakkımızda<i class="fa-solid fa-address-card"></i></button>
+    <button class="button2">Kategoriler<i class="fa-solid fa-cart-shopping"></i></button>
+    <button class="button2">İletişim<i class="fa-solid fa-phone"></i></button>
 
 
 </body>
