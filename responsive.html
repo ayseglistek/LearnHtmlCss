@@ -31,13 +31,18 @@
 
         .kutu{
             width: 25%;
-            height: 250px;
             background: aquamarine;
             float: left;
             border: 1px solid black;
         }
 
-        @media screen and (max-width:700px) {  /* @media screen oluşturduğumuz kutucukarın sayfanın boyutuna göre şekil almasıı sağlar. */
+        @media screen and (max-width:900px) {  /* @media screen oluşturduğumuz kutucukarın sayfanın boyutuna göre şekil almasıı sağlar. */
+            
+            .kutu{
+                width: 33.33%;
+            }
+        }
+        @media screen and (max-width:600px) {  /* @media screen oluşturduğumuz kutucukarın sayfanın boyutuna göre şekil almasıı sağlar. */
             
             .kutu{
                 width: 50%;
@@ -50,6 +55,10 @@
                 width: 100%;
             }
         }
+
+        img{
+            max-width: 100%;
+        }
     </style>
 </head>
 
@@ -58,11 +67,21 @@
     <h1>Lorem ipsum dolor sit amet consectetur.</h1>
 
 
-    <div class="kutu"></div>
-    <div class="kutu"></div>
-    <div class="kutu"></div>
-    <div class="kutu"></div>
-    <div class="kutu"></div>
+    <div class="kutu">
+        <img src="images/images1.jpg" alt="">
+    </div>
+    <div class="kutu">
+        <img src="images2.jpg" alt="">
+    </div>
+    <div class="kutu">
+        <img src="images/images1.jpg" alt="">
+    </div>
+    <div class="kutu">
+        <img src="images2.jpg" alt="">
+    </div>
+    <div class="kutu">
+        <img src="images/images1.jpg" alt="">
+    </div>
 
 
 </body>
