@@ -32,6 +32,12 @@ header{
 
 }
 
+img {
+    width: 100%;
+    height: auto; /* yüksekliği otomatik olarak belirlemesi için auto seçiyoruz. */
+
+}
+
 
 header .bg-images {  /* sınıf oluşturduk. */ 
     position: absolute;
@@ -65,4 +71,28 @@ header h1{
 .buton:hover {
     background-color: #fff;
     color: #333;
+}
+
+#section-a {
+    background-color: #eaeaea;
+    color: #333;
+    padding: 3.3rem 0;
+}
+
+#section-b {
+    padding: 2rem;
+}
+
+#section-b ul{
+    list-style: none;   /* oluşturduğumuz listenin içindeki madde imleçlerinin gitmesi için bu kod kullanıldı. */
+}
+
+#section-b li{
+    background: #fff;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.col-content {
+    padding: 1.5rem;
 }
