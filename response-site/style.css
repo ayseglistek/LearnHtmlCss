@@ -5,7 +5,7 @@
 }
 
 html{
-    font-size: 10px;
+    font-size: 7px;
 }
 
 
@@ -38,6 +38,11 @@ img {
 
 }
 
+.clearfix::after {  /*  */
+    content: "";
+    display: block;
+    clear: both;
+}
 
 header .bg-images {  /* sınıf oluşturduk. */ 
     position: absolute;
@@ -118,4 +123,33 @@ footer{
 
 footer a{
     color: yellowgreen;
+}
+
+
+/* Responsive ekleme. ekran büyüdükçe yazıların yana yana gelmesini sağladık. */
+
+@media screen and (mmin-width:800px) {
+
+    html {
+        font-size: 9px;
+    }
+    
+}
+
+@media screen and (min-width:1200px) {
+
+    html{
+        font-size: 11px;
+    }
+
+    #section-b li{
+        width: 28%;
+        margin: 1%;
+        display:inline-block;
+    }
+    
+    .box{
+        width: 50%;
+        float: left;
+    }
 }
