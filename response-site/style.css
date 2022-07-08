@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 1.6rem;   /* daha küçük oranlarda hepsinin boyutunu değiştirmeyi sağlar. */
+    line-height: 1.5;  /* satırlar arası mesafeyi belirler. */
+    text-align: center;  /* yazıları sayfanın ortasına getirmeyi sağlar. */
+    background-color: #333;  /* renk ayarlamayı bu şekilde de yapabiliriz. */
+}
+
+
+a{
+    text-decoration: none;
+}
+
+p{
+    padding: 1.6rem 0;
+}
+
+header{
+    height: 46rem;
+
+}
+
+
+header .bg-images {  /* sınıf oluşturduk. */ 
+    position: absolute;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    opacity: 0.5;  /* resmin görüntüsünü silik yapmamızı sağlar. */
+    z-index: -1;  /* yazımızın resmin üstünde olmasını sağladı. */
+}
+
+header h1{
+    padding: 12rem;
+    padding-bottom: 0;
+
+}
+
+
+.buton {
+
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    border: 1px solid #666;
+    padding: 1.6rem 3.2rem;
+    margin: 0.5rem 0;
+    transition: all 0.4s; /* butonun üstendeki değişim saniyesini belirler. */
+}
+
+.buton:hover {
+    background-color: #fff;
+    color: #333;
+}
