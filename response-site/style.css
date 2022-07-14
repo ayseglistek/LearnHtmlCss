@@ -95,7 +95,7 @@ header h1{
 #section-b li{
     background: #fff;
     color: #333;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;  /* kullanılam rem ler hepsinde düzenli değişim yapmayı sağlar. */
 }
 
 .col-content {
